@@ -73,6 +73,10 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _Opacity_Mask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _ParallaxMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -82,7 +86,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Refraction_Texture:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 36affed5633cccf41a8eeee2eb9e76ad, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _SampleCubemap_a22d85f8b26a478d94bcbded03f15e5a_Cube_1:
@@ -140,11 +144,12 @@ Material:
     - _Intensity: 1
     - _Metallic: 0
     - _OcclusionStrength: 1
+    - _Opacity_Mask_Contrast: 1
     - _Parallax: 0.005
     - _QueueControl: 0
     - _QueueOffset: 0
     - _ReceiveShadows: 1
-    - _Refraction_Intensity: 0
+    - _Refraction_Intensity: 0.5
     - _Smoothness: 0.5
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
@@ -161,6 +166,9 @@ Material:
     - _CubemapTile: {r: 1, g: 1, b: 0, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _Offset: {r: 0.5, g: 0.5, b: 0, a: 0}
+    - _Opacity_Mask_Tile: {r: 1, g: 1, b: 0, a: 0}
+    - _Reflection_Offset: {r: 0.5, g: 0.5, b: 0, a: 0}
+    - _Reflection_Tile: {r: 0.5, g: -0.5, b: 0, a: 0}
     - _Reflection_Tint: {r: 1, g: 1, b: 1, a: 1}
     - _RefractionTexture: {r: 0, g: 0, b: 0, a: 0}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
