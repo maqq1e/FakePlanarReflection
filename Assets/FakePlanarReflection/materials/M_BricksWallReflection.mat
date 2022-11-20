@@ -78,7 +78,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Reflection_Texture:
-        m_Texture: {fileID: 2800000, guid: bc5b2889d94952a47b0b5e7b22c464fa, type: 3}
+        m_Texture: {fileID: 2800000, guid: 2fe55b530a7e2494394d59db7b5a98c3, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Refraction_Texture:
@@ -132,6 +132,7 @@ Material:
     - _DetailAlbedoMapScale: 1
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
+    - _Edge_Fade_Intenisty: 28
     - _EnvironmentReflections: 1
     - _GlossMapScale: 0
     - _Glossiness: 0
@@ -159,9 +160,10 @@ Material:
     - _CubemapOffset: {r: 1, g: 1, b: 0, a: 0}
     - _CubemapTile: {r: 1, g: 1, b: 0, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _Offset: {r: 0.5, g: 0.5, b: 0, a: 0}
     - _Reflection_Tint: {r: 1, g: 1, b: 1, a: 1}
     - _RefractionTexture: {r: 0, g: 0, b: 0, a: 0}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
-    - _Tile: {r: 0.5, g: 0.5, b: 0, a: 0}
+    - _Tile: {r: 0.5, g: -0.5, b: 0, a: 0}
     - _Tint: {r: 1, g: 1, b: 1, a: 0}
   m_BuildTextureStacks: []
